@@ -1,0 +1,332 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script src="dist/script.js"></script>
+    <title>MY PROFILE</title>
+  </head>
+  <body class="font-[helvetica] scroll-smooth">
+    <!-- header -->
+    <section id="header">
+      <div class="lg:flex lg:justify-between lg:items-center lg:px-10">
+        <!-- logo -->
+        <div class="flex mt-5 items-center justify-center flex-col">
+          <i
+            class="text-2xl bi bi-asterisk bg-gradient-to-tr from-violet-800 via-sky-700 to-teal-600 text-transparent bg-clip-text"
+          ></i>
+          <h1
+            class="text-2xl font-bold bg-gradient-to-tr from-violet-800 via-sky-700 to-teal-600 text-transparent bg-clip-text"
+          >
+            Giri Athallah
+          </h1>
+        </div>
+        <!--  end of logo -->
+        <nav class="mt-8">
+          <ul class="flex-row w-full items-center justify-center flex">
+            <li
+              class="text-base border-l-2 border-r-2 border-black px-8 py-1 hover:bg-sky-600 hover:text-white font-semibold"
+            >
+              <a href="#">Home</a>
+            </li>
+            <li
+              class="text-base border-r-2 border-black px-8 py-1 hover:bg-sky-600 hover:text-white font-semibold group"
+            >
+              <a href="#project" class="">Project</a>
+            </li>
+            <li
+              class="text-base border-r-2 border-black px-8 py-1 hover:bg-sky-600 hover:text-white font-semibold"
+            >
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- header -->
+
+    <!-- hero -->
+    <section id="hero">
+      <div class="flex-row lg:flex lg:mt-36">
+        <!-- front end -->
+        <div
+          class="flex lg:w-1/3 mt-10 justify-center items-center mx-10 border-b-2 border-teal-600 py-5 lg:border-0 lg:mt-0 lg:py-0 lg:mx-0 lg:items-start lg:pl-24"
+        >
+          <h1 class="">
+            <span
+              class="font-bold text-4xl mr-2 lg:mr-0 lg:text-6xl bg-gradient-to-tr from-blue-800 via-sky-600 to-green-500 text-transparent bg-clip-text"
+              >Frontend</span
+            >
+            <span class="font-semibold text-2xl mr-2 lg:mr-0 lg:text-4xl"
+              >web</span
+            >
+            <span
+              class="font-bold text-4xl lg:mr-0 lg:text-6xl lg:border-b-2 bg-gradient-to-tr from-blue-800 via-sky-600 to-green-500 text-transparent bg-clip-text border-sky-600 pb-4 border-dashed"
+              >Developer</span
+            >
+          </h1>
+        </div>
+        <!-- front end -->
+
+        <!-- foto dan kontak -->
+        <div
+          class="flex items-center mt-10 lg:mt-0 w-full lg:flex lg:flex-col lg:w-1/3 lg:h-96"
+        >
+          <!-- buat foto -->
+          <div class="flex w-1/2 justify-center lg:h-1/2">
+            <img
+              class="max-h-64 max-w-64 h-auto w-auto rounded-full aspect-square"
+              src="dist/assets/hero-image.jpg"
+              alt=""
+            />
+          </div>
+          <!-- buat foto -->
+
+          <!-- buat kontak -->
+          <div
+            id="kontak"
+            class="px-10 w-1/2 flex flex-col justify-center lg:h-1/2"
+          >
+            <div
+              class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+            >
+              <i
+                class="bi bi-instagram mr-2 bg-gradient-to-tr text-transparent bg-clip-text from-yellow-500 via-red-600 to-violet-700 lg:text-2xl"
+              ></i>
+              <h2
+                class="text-lg font-bold bg-gradient-to-bl from-violet-700 via-pink-500 to-yellow-300 text-transparent bg-clip-text lg:text-2xl"
+              >
+                <a href="">Instagram</a>
+              </h2>
+            </div>
+            <div
+              class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+            >
+              <i
+                class="bi bi-youtube bg-red-600 text-transparent bg-clip-text mr-2 lg:text-2xl"
+              ></i>
+              <h2 class="text-lg font-bold text-black lg:text-2xl">
+                <a href="">Youtube</a>
+              </h2>
+            </div>
+            <div
+              class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+            >
+              <i
+                class="bi bi-envelope-fill mr-2 bg-red-700 bg-clip-text text-transparent lg:text-2xl"
+              ></i>
+              <h2 class="text-lg font-bold text-slate-700 lg:text-2xl">
+                <a href="">Email</a>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- buat kontak -->
+
+        <!-- end foto dan kontak -->
+
+        <!-- keterangan hero -->
+        <div
+          class="flex lg:w-1/3 mt-10 lg:mt-0 lg:items-end lg:py-0 lg:px-0 text-center border-t-2 border-b-2 border-black border-dashed py-4 px-6 lg:border-0 lg:pr-24"
+        >
+          <p
+            class="lg:text-lg lg:border-t-2 lg:pt-4 lg:border-sky-600 lg:border-dashed"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aut
+            incidunt est quam temporibus suscipit, aliquam eius alias et labore!
+          </p>
+        </div>
+        <!-- keterangan hero -->
+      </div>
+    </section>
+
+    <!-- end of hero -->
+
+    <!-- project -->
+    <section id="project" class="w-full mt-48 mb-56 bg-slate-400 pb-20">
+      <div class="w-3/4 mx-auto mb-20">
+        <h1
+          class="text-3xl font-bold py-5 border-b-2 border-dashed border-slate-900 w-3/12"
+        >
+          Projects
+        </h1>
+      </div>
+      <div class="w-3/4 mx-auto lg:grid lg:grid-cols-3 lg:gap-4">
+        <!-- project 1 -->
+        <div
+          class="max-w-md mx-auto bg-white shadow-md rounded-md overflow-hidden group"
+        >
+          <div class="relative">
+            <img
+              class="w-full h-64 object-cover"
+              src="dist/assets/pro1.png"
+              alt="Project Image"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 items-center justify-center hidden group-hover:flex duration-500 transition-transform"
+            >
+              <button class="">
+                <h2
+                  class="text-white text-2xl font-bold border-2 py-2 px-4 rounded-full hidden group-hover:flex active:bg-white active:text-teal-300 duration-500 transition-all"
+                >
+                  View
+                </h2>
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h2 class="text-2xl font-bold mb-4">project 1</h2>
+            <p class="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              consequatur laboriosam aliquam ipsa cupiditate voluptates
+              molestiae doloremque, deleniti totam laudantium!
+            </p>
+          </div>
+        </div>
+
+        <!-- end project 1 -->
+
+        <!-- project 2 -->
+        <div
+          class="max-w-md mx-auto bg-white shadow-md rounded-md overflow-hidden group"
+        >
+          <div class="relative">
+            <img
+              class="w-full h-64 object-cover"
+              src="dist/assets/pro2.png"
+              alt="Project Image"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 items-center justify-center hidden group-hover:flex"
+            >
+              <button class="">
+                <h2
+                  class="text-white text-2xl font-bold border-2 py-2 px-4 rounded-full hidden group-hover:flex active:bg-white active:text-teal-300"
+                >
+                  View
+                </h2>
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h2 class="text-2xl font-bold mb-4">project 2</h2>
+            <p class="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              consequatur laboriosam aliquam ipsa cupiditate voluptates
+              molestiae doloremque, deleniti totam laudantium!
+            </p>
+          </div>
+        </div>
+        <!-- end of project 2 -->
+
+        <!-- project 3 -->
+        <div
+          class="max-w-md mx-auto bg-white shadow-md rounded-md overflow-hidden group"
+        >
+          <div class="relative">
+            <img
+              class="w-full h-64 object-cover"
+              src="dist/assets/pro3.png"
+              alt="Project Image"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 items-center justify-center hidden group-hover:flex"
+            >
+              <button class="">
+                <h2
+                  class="text-white text-2xl font-bold border-2 py-2 px-4 rounded-full hidden group-hover:flex active:bg-white active:text-teal-300"
+                >
+                  View
+                </h2>
+              </button>
+            </div>
+          </div>
+          <div class="p-4">
+            <h2 class="text-2xl font-bold mb-4">project 3</h2>
+            <p class="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              consequatur laboriosam aliquam ipsa cupiditate voluptates
+              molestiae doloremque, deleniti totam laudantium!
+            </p>
+          </div>
+        </div>
+        <!-- end of project 3 -->
+      </div>
+    </section>
+    <!-- end of project -->
+
+    <!-- contact -->
+    <section id="contact" class="bg-white dark:bg-gray-900">
+      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <h2
+          class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
+        >
+          Contact Us
+        </h2>
+        <p
+          class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl"
+        >
+          Got a technical issue? Want to send feedback about a beta feature?
+          Need details about our Business plan? Let us know.
+        </p>
+        <form action="#" class="space-y-8">
+          <div>
+            <label
+              for="email"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 invalid:ring-2 invalid:ring-pink-600"
+              >Your email</label
+            >
+            <input
+              type="email"
+              id="email"
+              required
+              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              placeholder="name@flowbite.com"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="subject"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Subject</label
+            >
+            <input
+              type="text"
+              id="subject"
+              class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              placeholder="Let us know how we can help you"
+              required
+            />
+          </div>
+          <div class="sm:col-span-2">
+            <label
+              for="message"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+              >Your message</label
+            >
+            <textarea
+              id="message"
+              rows="6"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              placeholder="Leave a comment..."
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+          >
+            Send message
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- end of contact -->
+  </body>
+</html>

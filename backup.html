@@ -1,0 +1,159 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script src="dist/script.js"></script>
+    <title>MY PROFILE</title>
+  </head>
+  <body class="font-[helvetica]">
+    <!-- header -->
+    <section class="header">
+      <div class="w-full md:h-16 md:items-center md:flex md:justify-between">
+        <div
+          class="flex md:h-full items-center justify-between font-bold md:items-center"
+        >
+          <div id="logo" class="">
+            <h1 class="ml-8 pt-5 text-xl md:text-xl md:px-4 lg:ml-10">
+              <span>G</span>IRI <span>A</span>THALLAH
+            </h1>
+          </div>
+          <button class="text-3xl mr-8 pt-5 md:hidden">
+            <i id="burger" class="bi bi-list" onclick="onburger(this)"></i>
+          </button>
+        </div>
+        <nav class="">
+          <div class="lg:mr-10">
+            <ul id="navMenu" class="md:flex hidden">
+              <li
+                class="md:h-full flex justify-center items-center md:flex md:text-lg md:py-2 md:px-4 hover:bg-sky-600 active:ring-sky-900 active:ring-2 hover:text-white"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="md:h-full flex justify-center items-center md:flex md:text-lg md:py-2 md:px-4 hover:bg-sky-600 active:ring-sky-900 active:ring-2 hover:text-white"
+              >
+                <a href="#">About</a>
+              </li>
+              <li
+                class="md:h-full flex justify-center items-center md:flex md:text-lg md:py-2 md:px-4 hover:bg-sky-600 active:ring-sky-900 active:ring-2 hover:text-white"
+              >
+                <a href="#">Skills</a>
+              </li>
+              <li
+                class="md:h-full flex justify-center items-center md:flex md:text-lg md:py-2 md:px-4 hover:bg-sky-600 active:ring-sky-900 active:ring-2 hover:text-white"
+              >
+                <a href="#">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- header -->
+
+    <!-- hero -->
+    <section id="hero" class="mt-20">
+      <div class="md:flex md:mx-auto w-full lg:w-3/4">
+        <div
+          class="px-10 md:w-1/2 md:flex md:flex-col md:justify-center md:ml-10 lg:ml-0"
+        >
+          <h1
+            class="font-bold text-2xl md:text-2xl lg:text-3xl bg-gradient-to-tr from-[#947F91] via-[#CD8E9D] to-[#FDA38F] bg-clip-text text-transparent cursor-pointer mb-3"
+          >
+            <a href=""> Hi, My Name Is Muhammad Giri Sulthan Athallah </a>
+          </h1>
+          <h2 class="mb-5 text-lg md:text-xl">I'M Frontend Web Developer</h2>
+          <p class="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
+            asperiores aliquid. Excepturi doloribus perspiciatis maxime aliquid
+            temporibus ipsam totam laudantium?
+          </p>
+          <button class="bg-sky-400 text-white px-6 py-3 rounded-full mt-6">
+            Contact Me
+          </button>
+        </div>
+        <div
+          class="flex justify-center w-full pt-10 md:pt-0 md:w-1/2 md:flex md:justify-end md:mr-10 lg:mr-0 lg:justify-center"
+        >
+          <img
+            class="w-64 h-64 items-center md:w-64 md:h-64 lg:w-96 lg:h-96 rounded-full aspect-[3/4]"
+            src="dist/assets/hero-image.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- end of hero -->
+  </body>
+</html>
+
+<section id="hero">
+  <div class="w-full lg:flex">
+    <div
+      id="front"
+      class="flex mt-10 justify-center items-center mx-10 border-b-2 border-teal-600 py-5 lg:w-1/6 lg:border-0"
+    >
+      <h1 class="">
+        <span class="font-bold text-4xl mr-2">Frontend</span>
+        <span class="font-semibold text-2xl mr-2">web</span>
+        <span class="font-bold text-4xl">Developer</span>
+      </h1>
+    </div>
+    <div id="heroku" class="px-3 flex w-1/2 sm:justify-center justify-center">
+      <img
+        class="h-52 w-52 rounded-full"
+        src="dist/assets/hero-image.jpg"
+        alt=""
+      />
+    </div>
+
+    <div id="kontak" class="px-10 w-1/2 flex flex-col justify-center">
+      <div
+        class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+      >
+        <i
+          class="bi bi-instagram mr-2 bg-gradient-to-tr text-transparent bg-clip-text from-yellow-500 via-red-600 to-violet-700"
+        ></i>
+        <h2
+          class="text-lg font-bold bg-gradient-to-tr text-transparent bg-clip-text from-yellow-500 via-red-600 to-violet-700"
+        >
+          <a href="">Instagram</a>
+        </h2>
+      </div>
+      <div
+        class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+      >
+        <i
+          class="bi bi-youtube bg-red-600 text-transparent bg-clip-text mr-2"
+        ></i>
+        <h2 class="text-lg font-bold text-black">
+          <a href="">Youtube</a>
+        </h2>
+      </div>
+      <div
+        class="flex items-center border-b-2 border-black border-dashed hover:border-solid mb-2"
+      >
+        <i
+          class="bi bi-envelope-fill mr-2 bg-red-700 bg-clip-text text-transparent"
+        ></i>
+        <h2 class="text-lg font-bold text-slate-700">
+          <a href="">Email</a>
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mt-10 text-center border-t-2 border-b-2 border-black border-dashed py-4 px-6"
+  >
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aut
+      incidunt est quam temporibus suscipit, aliquam eius alias et labore!
+    </p>
+  </div>
+</section>
